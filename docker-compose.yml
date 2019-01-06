@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  bridge:
+    build: ./docker
+    restart: always
+    env_file: .env
